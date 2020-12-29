@@ -66,16 +66,19 @@ header{
       z-index: 1;
       margin-top: 2.3rem;
       object-fit: cover;
+      max-width: 38rem;
     }
   }
 
   .hero-text{
     // z-index: 1;
+    margin: auto;
     margin-top: 3.1rem;
     position: relative;
     padding: 0 3.2rem;
     text-align: center;
     font-size: 1.4rem;
+    max-width: 50rem;
   }
 
   h1{
@@ -105,7 +108,7 @@ header{
     // margin-bottom: 1.6rem;
     font-size: 1.4rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
 }
