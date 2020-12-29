@@ -1,0 +1,112 @@
+.about-us{
+  background: $blue-main;
+
+  h2, p{
+    color: #fff;
+  }
+
+  p{
+    font-size: 1.4rem;
+  }
+
+  .services{
+    margin: auto;
+    max-width: 50rem;
+    padding: 7rem 1.5rem;
+    @include flexCenter(column);
+    text-align: center;
+
+    .service{
+      margin: 1rem 1rem 1.38rem;
+      padding-bottom: 5.65rem;
+      @include flexCenter(column);
+
+      .icon{
+        // padding: 2rem;
+        // width: 9rem;
+        height: 8.8rem;
+        // margin: 0rem auto 2rem;
+        margin: auto;
+        // padding: 1rem;
+
+
+        img{
+          max-width: 100%;
+          height: fit-content;
+          transform: scale(0.77);
+          // margin: 1rem;
+          // padding: 0.9rem;
+        }
+      }
+
+      h2{
+        margin: 1.1rem 0rem 0.2rem;        
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.8rem;
+      }
+
+      p{
+        margin: 0.8rem 0rem;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 2.1rem;
+      }
+    }
+  }
+
+  .production{
+    .image-wrapper{
+      @include flexCenter(column);
+      width: 100%;
+      height: max-content;
+      // height: 25rem;
+      padding: 3rem 3.5rem 2rem;
+
+      img{
+        width: 100%;
+        // margin-top: 2.3rem;
+        object-fit: cover;
+        max-width: 50rem;
+      }
+    }
+
+    .text-wrapper{
+      // padding-bottom: 8rem;
+      margin: 2.8rem 2.8rem 0rem;
+      max-width: 50rem;
+
+      h2{
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.8rem;
+        margin: 2.9rem 0.2rem 1.7rem;
+        letter-spacing: 0.01rem;
+      }
+
+      p{
+        font-family: 'Open Sans', sans-serif;
+        line-height: 2.2rem;
+        margin-bottom: 1.2rem;
+      }
+      
+      .link{
+        width: 100%;
+        padding: 0.3rem 0 1rem;        
+        a{
+          color: $cyan;
+          font-size: 1.2rem;
+          font-family: 'Open Sans', sans-serif;
+          padding: 0rem 0 0.5rem;
+          margin-top: 1rem;
+          letter-spacing: 0.01rem;
+          border-bottom: 0.1rem solid $cyan;
+          i{
+            img{
+              vertical-align: sub;
+              margin-left: 0.3rem;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
