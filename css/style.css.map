@@ -5,7 +5,8 @@
         "style.scss",
         "_header.scss",
         "_about.scss",
-        "_testimonials.scss"
+        "_testimonials.scss",
+        "_footer.scss"
     ],
     "names": [],
     "file": "style.css"
