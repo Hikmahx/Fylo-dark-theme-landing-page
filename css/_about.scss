@@ -1,10 +1,6 @@
 .about-us{
   background: $blue-main;
 
-  h2, p{
-    color: #fff;
-  }
-
   p{
     font-size: 1.4rem;
   }
@@ -71,8 +67,9 @@
 
     .text-wrapper{
       // padding-bottom: 8rem;
-      margin: 2.8rem 2.8rem 0rem;
-      max-width: 50rem;
+      padding: 0rem 2.8rem;
+      margin: auto;
+      max-width: 45rem;
 
       h2{
         font-family: 'Raleway', sans-serif;

@@ -1,6 +1,5 @@
 header{
   background: $blue-intro-email;
-  color: #fff;
   @include flexCenter(row);
   justify-content: space-between;
   padding: 2.3rem 2rem;
@@ -38,7 +37,6 @@ header{
 .hero{
   background: linear-gradient(180deg, $blue-intro-email 60%, $blue-main 60%);
   // background: $blue-intro-email 60vh;
-  color: #fff;
   // height: 100vh;
   position: relative;
 
@@ -103,7 +101,6 @@ header{
     border: none ;
     border-radius: 2.5rem;
     font-family: 'Raleway', sans-serif;
-    color: #fff;
     background: linear-gradient(74deg, #53c8d5 , #3eafcf );
     // margin-bottom: 1.6rem;
     font-size: 1.4rem;

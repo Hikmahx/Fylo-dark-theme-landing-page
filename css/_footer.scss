@@ -11,6 +11,8 @@
     border-radius: 0.5rem;
     position: relative;
     z-index: 1;
+    max-width: 50rem;
+    margin: auto;
     margin-bottom: -18rem;
     box-shadow: 0rem 0.5rem 0.5rem 0rem #08101b;
 
@@ -92,7 +94,7 @@
       &:nth-child(3){
         i{
           img{
-            width: 40%;
+            width: 1.28rem;
           }
         }
       }

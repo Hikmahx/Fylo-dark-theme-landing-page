@@ -7,6 +7,7 @@
           box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  color: #fff;
 }
 
 html {
@@ -16,7 +17,6 @@ html {
 
 header {
   background: #1c2431;
-  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,7 +77,6 @@ header nav ul li a {
 .hero {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #1c2431), color-stop(60%, #181f2a));
   background: linear-gradient(180deg, #1c2431 60%, #181f2a 60%);
-  color: #fff;
   position: relative;
 }
 
@@ -151,7 +150,6 @@ header nav ul li a {
   border: none;
   border-radius: 2.5rem;
   font-family: 'Raleway', sans-serif;
-  color: #fff;
   background: linear-gradient(74deg, #53c8d5, #3eafcf);
   font-size: 1.4rem;
   font-weight: 700;
@@ -160,10 +158,6 @@ header nav ul li a {
 
 .about-us {
   background: #181f2a;
-}
-
-.about-us h2, .about-us p {
-  color: #fff;
 }
 
 .about-us p {
@@ -263,8 +257,9 @@ header nav ul li a {
 }
 
 .about-us .production .text-wrapper {
-  margin: 2.8rem 2.8rem 0rem;
-  max-width: 50rem;
+  padding: 0rem 2.8rem;
+  margin: auto;
+  max-width: 45rem;
 }
 
 .about-us .production .text-wrapper h2 {
@@ -303,10 +298,6 @@ header nav ul li a {
 .testimonials {
   background: #181f2a;
   padding-top: 15.3rem;
-}
-
-.testimonials h3, .testimonials p {
-  color: #fff;
 }
 
 .testimonials h3 {
@@ -403,5 +394,184 @@ header nav ul li a {
   font-size: 0.75rem;
   letter-spacing: 0.07rem;
   margin-bottom: 1rem;
+}
+
+.subscription {
+  background: #181f2a;
+  padding: 12rem 3rem 0;
+}
+
+.subscription .wrapper {
+  text-align: center;
+  background: #1c2431;
+  padding: 1.8rem;
+  height: 34rem;
+  border-radius: 0.5rem;
+  position: relative;
+  z-index: 1;
+  max-width: 50rem;
+  margin: auto;
+  margin-bottom: -18rem;
+  -webkit-box-shadow: 0rem 0.5rem 0.5rem 0rem #08101b;
+          box-shadow: 0rem 0.5rem 0.5rem 0rem #08101b;
+}
+
+.subscription .wrapper h2 {
+  margin-bottom: 1.8rem;
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.subscription .wrapper p {
+  font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2.0rem;
+  margin-bottom: 1.8rem;
+}
+
+.subscription .wrapper input {
+  width: 100%;
+  height: 5rem;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 2.5rem;
+  padding-left: 3rem;
+}
+
+.subscription .wrapper input::-webkit-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: #c5c5c5;
+}
+
+.subscription .wrapper input:-ms-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: #c5c5c5;
+}
+
+.subscription .wrapper input::-ms-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: #c5c5c5;
+}
+
+.subscription .wrapper input::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: #c5c5c5;
+}
+
+.subscription .wrapper button {
+  width: 100%;
+  height: 5rem;
+  border: none;
+  border-radius: 2.5rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  background: linear-gradient(74deg, #53c8d5, #3eafcf);
+}
+
+.footer {
+  background: #0b1523;
+  padding: 22rem 2.8rem 4.3rem;
+}
+
+.footer p {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer .upper .logo {
+  margin: 3rem 1.1rem 4rem;
+}
+
+.footer .upper .contact-info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 90%;
+      grid-template-columns: 10% 90%;
+  margin-bottom: 1.5rem;
+}
+
+.footer .upper .contact-info:nth-child(2) p {
+  letter-spacing: 0.07rem;
+  font-size: 1.5rem;
+}
+
+.footer .upper .contact-info:nth-child(3) i img {
+  width: 1.28rem;
+}
+
+.footer .upper .contact-info i {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  margin-top: 0.6rem;
+}
+
+.footer .upper .contact-info p {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  width: 100%;
+  margin-left: 0.8rem;
+}
+
+.footer .lower {
+  margin: 8rem 0 0 0;
+}
+
+.footer .lower .footer-links .links {
+  margin: 5rem 0;
+}
+
+.footer .lower .footer-links .links li {
+  margin: 1.8rem 0;
+}
+
+.footer .lower .footer-links .links li a {
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.07rem;
+}
+
+.footer .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 8rem;
+}
+
+.footer .socials a i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.2rem;
+  width: 2.8rem;
+  height: 2.8rem;
+  border: #fff solid 0.1rem;
+  margin: 0 0.5rem;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
