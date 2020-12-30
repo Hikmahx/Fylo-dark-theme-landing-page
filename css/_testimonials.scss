@@ -1,0 +1,76 @@
+.testimonials{
+  background: $blue-main;
+  padding-top: 12rem;
+
+  h3, p{
+    color: #fff;
+  }
+
+  h3{
+    font-size: 1.6rem;
+  }
+
+  p{
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .cards{
+    @include flexCenter(column);
+    padding: 1rem 4.8rem;
+    position: relative;
+
+    &::before{
+      content: url(../images/bg-quotes.png);
+      position: absolute;
+      top: -2rem;
+      left: 3.7rem;
+      transform: scale(0.4);
+    }
+    .card{
+      position: relative;
+      width: 100%;
+      height: 16rem;
+      background: $blue-testimonials;
+      margin-bottom: 2.5rem;
+      padding: 2.4rem 2rem 0 2rem;
+      border-radius: 0.5rem;
+
+
+      p{
+        font-size: 1rem;
+        line-height: 1.8rem;
+        margin-bottom: 0.4rem;
+      }
+
+      .profile{
+        @include flexCenter(row); 
+        justify-content: end;
+
+        .profile-img{
+          margin-right: 0.7rem;
+          margin-top: -0.1rem;
+
+          img{
+            width: 2.4rem;
+            border-radius: 50%;
+          }
+        }
+        .profile-info{
+          margin-top: 1.4rem;
+
+          h3{
+            font-size: 1rem;
+            letter-spacing: 0.08rem;
+          }
+
+          p{
+            font-size: 0.75rem;
+            letter-spacing: 0.07rem;
+            margin-bottom: 1rem;
+          }
+        }
+      }
+      
+    }
+  }
+}
