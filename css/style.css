@@ -302,7 +302,7 @@ header nav ul li a {
 
 .testimonials {
   background: #181f2a;
-  padding-top: 12rem;
+  padding-top: 15.3rem;
 }
 
 .testimonials h3, .testimonials p {
@@ -347,6 +347,7 @@ header nav ul li a {
 .testimonials .cards .card {
   position: relative;
   width: 100%;
+  max-width: 40rem;
   height: 16rem;
   background: #202a3c;
   margin-bottom: 2.5rem;
