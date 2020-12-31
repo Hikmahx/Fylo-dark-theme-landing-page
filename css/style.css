@@ -465,9 +465,35 @@ header nav ul li a {
   }
 }
 
+/* TABLET AND DESKTOP */
 @media (min-width: 700px) {
   .testimonials .cards::before {
     left: 25%;
+  }
+}
+
+@media (min-width: 1023px) {
+  .testimonials .cards {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .testimonials .cards::before {
+    left: 9.5%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .testimonials .cards .card {
+    max-width: 32rem;
+  }
+  .testimonials .cards .card p {
+    font-size: 1.4rem;
   }
 }
 
