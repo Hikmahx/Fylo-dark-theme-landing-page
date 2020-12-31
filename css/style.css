@@ -762,5 +762,23 @@ header nav ul li a {
     margin: 2rem 0;
     width: 30%;
   }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer .upper {
+    width: 76%;
+  }
+  .footer .lower {
+    width: 33%;
+    margin-top: 6rem;
+    margin-left: -10rem;
+  }
+  .footer .socials {
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
