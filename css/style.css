@@ -334,6 +334,30 @@ header nav ul li a {
   margin-left: 0.3rem;
 }
 
+/*TABLET AND DESKTOP*/
+@media (min-width: 1023px) {
+  .about-us .services {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 0 5rem;
+    padding-bottom: 0rem;
+  }
+  .about-us .services .service {
+    min-width: 33rem;
+  }
+  .about-us .production {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .about-us .production .text-wrapper h2 {
+    font-size: 3rem;
+    width: 30rem;
+  }
+}
+
 .testimonials {
   background: #181f2a;
   padding-top: 15.3rem;

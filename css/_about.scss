@@ -107,3 +107,31 @@
     }
   }
 }
+
+/*TABLET AND DESKTOP*/
+@media (min-width: 1023px) {
+  .about-us{
+
+    .services{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 5rem;
+      padding-bottom: 0rem;
+
+      .service{
+        min-width: 33rem;
+      }
+    }
+
+    .production{
+      display: flex;
+
+      .text-wrapper{
+        h2{
+          font-size: 3rem;
+          width: 30rem;
+        }
+      }
+    }
+  }
+}
