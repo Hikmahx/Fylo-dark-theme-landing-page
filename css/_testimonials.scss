@@ -71,3 +71,23 @@
     }
   }
 }
+
+@media (min-width: 580px) {
+  .testimonials{
+
+    .cards{
+
+      &::before{
+        left: 18%;
+      }
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  .testimonials .cards{
+    &::before{
+      left: 25%;
+    }
+  } 
+}

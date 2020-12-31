@@ -459,6 +459,18 @@ header nav ul li a {
   margin-bottom: 1rem;
 }
 
+@media (min-width: 580px) {
+  .testimonials .cards::before {
+    left: 18%;
+  }
+}
+
+@media (min-width: 700px) {
+  .testimonials .cards::before {
+    left: 25%;
+  }
+}
+
 .subscription {
   background: #181f2a;
   padding: 12rem 3rem 0;
