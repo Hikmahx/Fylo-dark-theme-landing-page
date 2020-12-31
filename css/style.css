@@ -160,6 +160,41 @@ header nav ul li a {
   margin-bottom: 4rem;
 }
 
+@media (min-width: 1023px) {
+  header {
+    padding: 5.5rem 5.5rem 0;
+  }
+  header .logo img {
+    width: 13rem;
+  }
+  .hero {
+    background: #1c2431;
+  }
+  .hero::before {
+    background: url(../images/bg-curvy-desktop.svg);
+    bottom: -10%;
+    top: auto;
+    height: 31rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .hero .hero-image {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .hero .hero-image img {
+    max-width: 51rem;
+  }
+  .hero .hero-text {
+    margin-top: 0rem;
+  }
+  .hero button {
+    width: 48%;
+    padding: 1.2rem;
+  }
+}
+
 .about-us {
   background: #181f2a;
 }

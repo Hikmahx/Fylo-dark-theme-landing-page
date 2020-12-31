@@ -109,3 +109,46 @@ header{
   }
 
 }
+
+@media (min-width: 1023px) {
+  header{
+    padding: 5.5rem 5.5rem 0;
+    
+    .logo{
+
+      img{
+        width: 13rem;
+      }
+    }
+  }
+
+  .hero{
+    background: $blue-intro-email;
+
+    &::before{
+      background: url(../images/bg-curvy-desktop.svg);
+      bottom: -10%;
+      top: auto;
+      height: 31rem;
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+
+    .hero-image{
+      height: max-content;
+      img{
+        max-width: 51rem;
+
+      }
+    }
+
+    .hero-text{
+      margin-top: 0rem;
+    }
+
+    button{
+      width: 48%;
+      padding: 1.2rem;
+    }
+  }
+}
