@@ -26,6 +26,10 @@ html{
   font-family: 'Raleway', 'Open Sans', sans-serif;
 }
 
+body{
+  background: #181f2a;
+}
+
 @mixin flexCenter($direction) {
   display: flex;
   align-items: center;
