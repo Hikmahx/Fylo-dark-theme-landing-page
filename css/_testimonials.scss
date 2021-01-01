@@ -101,7 +101,7 @@
     .cards{
       flex-wrap: wrap;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: center;
 
       &::before{
         left: 9.5%;
@@ -110,10 +110,54 @@
 
       .card{
         max-width: 32rem;
+        // margin: 1rem 2rem;
+        margin: 2.5rem;
+
 
         p{
           font-size: 1.4rem;
         }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .testimonials{
+    padding-top: 10rem;
+
+    .cards{
+      padding: 1rem 0rem;
+
+      &::before{
+        top: -0.5rem;
+        left: 9%;
+      }
+
+      .card{
+        margin: 2rem;
+        height: 20rem;
+
+        p{
+          line-height: 2rem;
+          word-spacing: 0.1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .testimonials{
+    padding-top: 12.5rem;
+
+    .cards{
+      padding: 1rem 6rem;
+
+      .card{
+        max-width: 36rem;
+        padding: 4.4rem 2.8rem 0;
+
       }
     }
   }
