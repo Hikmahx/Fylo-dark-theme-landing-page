@@ -275,3 +275,51 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .subscription{
+    padding: 17rem 3rem 0;
+
+    .wrapper{
+      max-width: 87rem;
+      height: 30rem;
+    }
+  }
+
+  .footer{
+    padding-left: 10rem;
+
+    .upper{
+      width: 63%;
+      // gap: 0;
+      .logo{
+        margin-top: 7rem;
+        img{
+          width: 14rem;
+        }
+      }
+
+      .contact-info{
+        p{
+          font-size: 1.4rem;
+        }
+
+        &:nth-child(2){
+          p{
+            font-size: 1.4rem;
+            letter-spacing: 0;
+            width: 27rem;
+          }
+        }
+      }
+    }
+
+    .lower{
+      width: 30%;
+      .footer-links .links li a{
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
