@@ -68,6 +68,25 @@ header nav ul {
 
 header nav ul li {
   margin: 0 1.2rem;
+  position: relative;
+}
+
+header nav ul li::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 0.1rem;
+  bottom: 0rem;
+  left: 0rem;
+  right: 0rem;
+  margin: 0 auto;
+  -webkit-transition: width 0.2s ease;
+  transition: width 0.2s ease;
+}
+
+header nav ul li:hover::after {
+  width: 100%;
+  background-color: #fff;
 }
 
 header nav ul li a {
@@ -76,6 +95,10 @@ header nav ul li a {
   font-weight: 400;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.2px;
+}
+
+header nav ul li a:hover, header nav ul li a:focus {
+  font-weight: 700;
 }
 
 .hero {
@@ -158,6 +181,11 @@ header nav ul li a {
   font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 4rem;
+}
+
+.hero button:hover, .hero button:focus {
+  cursor: pointer;
+  background: linear-gradient(74deg, #89dbe1, #8bd9e5);
 }
 
 @media (min-width: 1023px) {

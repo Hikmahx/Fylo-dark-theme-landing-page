@@ -22,12 +22,38 @@ header{
         margin: 0 1.2rem;
         // margin-left: 1.8rem;
         // margin-right: 0.2rem;
+        position: relative;
+        
+        &::after{
+          content: '';
+          position: absolute;
+          width: 0%;
+          height: 0.1rem;
+          bottom: 0rem;
+          left: 0rem;
+          right: 0rem;
+          margin: 0 auto;
+          transition: width 0.2s ease;
+        }
+
+        &:hover{
+
+          &::after{
+            width: 100%;
+            background-color: #fff;
+          }
+        }
+
         a{
           color: white;
           font-size: 1.2rem;
           font-weight: 400;
           font-family: 'Raleway', sans-serif;
           letter-spacing: 0.2px;
+
+          &:hover, &:focus{
+            font-weight: 700;
+          }
         }
       }
     }
@@ -106,6 +132,11 @@ header{
     font-size: 1.4rem;
     font-weight: 700;
     margin-bottom: 4rem;
+
+    &:hover, &:focus{
+      cursor: pointer;
+      background: linear-gradient(74deg, #89dbe1, #8bd9e5);
+    }
   }
 
 }
