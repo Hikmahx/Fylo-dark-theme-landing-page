@@ -3,7 +3,6 @@
   padding: 12rem 3rem 0;
 
   .wrapper{
-    // @include flexCenter(column);
     text-align: center;
     background: $blue-intro-email;
     padding: 1.8rem;
@@ -15,8 +14,6 @@
     margin: auto;
     margin-bottom: -18rem;
     box-shadow: 0rem 0.5rem 0.5rem 0rem #08101b;
-
-
 
     h2{
       margin-bottom: 1.8rem;
@@ -64,6 +61,7 @@
     }
 
     .err{
+
       p{
         display: block;
         text-align: initial;
@@ -74,7 +72,6 @@
         margin-top: -14rem;
       }
     }
-
   }
 }
 
@@ -94,12 +91,8 @@
     }
 
     .contact-info{
-      // padding: 0 1rem;
-      // @include flexCenter(row);
-      // justify-content: end;
       display: grid;
       grid-template-columns: 10% 90%;
-      // grid-gap: 1rem;
       margin-bottom: 1.5rem;
 
       &:nth-child(2) {
@@ -117,31 +110,15 @@
         }
       }
 
-      // &:nth-child(4) {
-      //   p{
-      //     font-size: 1.4rem;
-      //   }
-      // }
-
       i{
-
         grid-column: 1;
         margin-top: 0.6rem;
-
-        // img{
-        //   margin-right: 1rem;
-        // }
-        img{
-          
-
-        }
       }
       
       p{
         grid-column: 2;
         width: 100%;
         margin-left: 0.8rem;          
-
       }
     }
   }
@@ -150,7 +127,6 @@
     margin: 8rem 0 0 0;
 
     .footer-links{
-      // margin-top: 1rem;
 
       .links{
         margin:  5rem 0;
@@ -201,6 +177,7 @@
 /*TABLET AND DESKTOP*/
 @media(min-width: 650px) {
   .footer{
+
     .upper{
       display: grid;
       grid-template-columns: 50% 50%;
@@ -236,15 +213,14 @@
   
       .footer-links{
         display: flex;
-        // margin: auto;
         justify-content: center;
-        
-  
+          
         .links{
           width: 40%;
         }
       }
     }
+
     .socials{
       margin: 0;
     }
@@ -271,7 +247,6 @@
         display: flex;
         justify-content: space-evenly;
         width: 100%;
-        // height: 30rem;
 
         input{
           width: 60%;
@@ -329,20 +304,23 @@
 
     .upper{
       width: 63%;
-      // gap: 0;
+ 
       .logo{
         margin-top: 7rem;
+
         img{
           width: 14rem;
         }
       }
 
       .contact-info{
+
         p{
           font-size: 1.4rem;
         }
 
         &:nth-child(2){
+
           p{
             font-size: 1.4rem;
             letter-spacing: 0;
@@ -407,8 +385,6 @@
     padding-top: 11.5rem;
 
     .upper{
-      // padding-left: 10rem;
-      // margin-top: 2rem;
       margin-left: 0.9rem;
       gap: 0 6rem;
   
@@ -476,7 +452,9 @@
 
         .links{
           width: 35%;
+          
           li{
+
             a{
               font-size: 1.5rem;
             }
