@@ -447,11 +447,47 @@ header nav ul li a:hover, header nav ul li a:focus {
   margin-top: 1rem;
   letter-spacing: 0.01rem;
   border-bottom: 0.1rem solid #65e2d9;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.about-us .production .text-wrapper .link a i img {
-  vertical-align: sub;
-  margin-left: 0.3rem;
+.about-us .production .text-wrapper .link a:hover, .about-us .production .text-wrapper .link a:focus {
+  cursor: pointer;
+  color: #fff;
+  border-bottom: 0.1rem solid #fff;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.about-us .production .text-wrapper .link a:hover .arrow, .about-us .production .text-wrapper .link a:focus .arrow {
+  background: #fff;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.about-us .production .text-wrapper .link a .arrow {
+  padding: 0.2rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: #65e2d9;
+  position: relative;
+  margin: 0.5rem 0 0 0.8rem;
+}
+
+.about-us .production .text-wrapper .link a .arrow i {
+  position: absolute;
+  left: 0.3rem;
+  top: 0.2rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #181f2a;
 }
 
 /*TABLET AND DESKTOP*/
@@ -570,6 +606,7 @@ header nav ul li a:hover, header nav ul li a:focus {
   }
   .about-us .production .text-wrapper .link a {
     font-size: 1.6rem;
+    margin: 0;
   }
 }
 
