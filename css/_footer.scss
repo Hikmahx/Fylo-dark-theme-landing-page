@@ -56,6 +56,11 @@
       font-weight: 700;
       font-size: 1.4rem;
       background: linear-gradient(74deg, #53c8d5 , #3eafcf );
+
+      &:hover, &:focus{
+        cursor: pointer;
+        background: linear-gradient(74deg, #89dbe1, #8bd9e5);
+      }
     }
 
   }
@@ -145,6 +150,12 @@
             font-size: 1.5rem;
             font-family: 'Open Sans', sans-serif;
             letter-spacing: 0.07rem;
+
+            &:hover, &:focus{
+              cursor: pointer;
+              font-weight: 700;
+              transition: 0.2s ease-in-out;
+            }
           }
         }
       }
@@ -164,6 +175,12 @@
         border: #fff solid 0.1rem;
         margin: 0 0.5rem;
         border-radius: 50%;
+
+        &:hover, &:focus{
+          border-color: $cyan;
+          color: $cyan;
+          transition: 0.2s ease-in-out;
+        }
       }
     }
   }
@@ -242,7 +259,7 @@
         display: flex;
         justify-content: space-evenly;
         width: 100%;
-        height: 30rem;
+        // height: 30rem;
 
         input{
           width: 60%;

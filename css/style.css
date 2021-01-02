@@ -867,6 +867,11 @@ header nav ul li a:hover, header nav ul li a:focus {
   background: linear-gradient(74deg, #53c8d5, #3eafcf);
 }
 
+.subscription .wrapper button:hover, .subscription .wrapper button:focus {
+  cursor: pointer;
+  background: linear-gradient(74deg, #89dbe1, #8bd9e5);
+}
+
 .footer {
   background: #0b1523;
   padding: 22rem 2.8rem 4.3rem;
@@ -930,6 +935,13 @@ header nav ul li a:hover, header nav ul li a:focus {
   letter-spacing: 0.07rem;
 }
 
+.footer .lower .footer-links .links li a:hover, .footer .lower .footer-links .links li a:focus {
+  cursor: pointer;
+  font-weight: 700;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
 .footer .socials {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -967,6 +979,13 @@ header nav ul li a:hover, header nav ul li a:focus {
   border: #fff solid 0.1rem;
   margin: 0 0.5rem;
   border-radius: 50%;
+}
+
+.footer .socials a i:hover, .footer .socials a i:focus {
+  border-color: #65e2d9;
+  color: #65e2d9;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 /*TABLET AND DESKTOP*/
@@ -1045,7 +1064,6 @@ header nav ul li a:hover, header nav ul li a:focus {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     width: 100%;
-    height: 30rem;
   }
   .subscription .wrapper form input {
     width: 60%;
