@@ -872,6 +872,16 @@ header nav ul li a:hover, header nav ul li a:focus {
   background: linear-gradient(74deg, #89dbe1, #8bd9e5);
 }
 
+.subscription .wrapper .err p {
+  display: block;
+  text-align: initial;
+  color: #ff4242;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: -14rem;
+}
+
 .footer {
   background: #0b1523;
   padding: 22rem 2.8rem 4.3rem;
@@ -1071,6 +1081,10 @@ header nav ul li a:hover, header nav ul li a:focus {
   .subscription .wrapper form button {
     margin: 2rem 0;
     width: 30%;
+  }
+  .subscription .wrapper .err p {
+    margin-top: -1.5rem;
+    margin-left: 4rem;
   }
   .footer {
     display: -webkit-box;

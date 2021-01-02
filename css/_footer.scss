@@ -63,6 +63,18 @@
       }
     }
 
+    .err{
+      p{
+        display: block;
+        text-align: initial;
+        color: rgb(255, 66, 66);
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.2rem;
+        margin-left: 2rem;
+        margin-top: -14rem;
+      }
+    }
+
   }
 }
 
@@ -269,6 +281,11 @@
           margin: 2rem 0;
           width: 30%;
         }
+      }
+
+      .err p{
+        margin-top: -1.5rem;
+        margin-left: 4rem;
       }
     }
   }
