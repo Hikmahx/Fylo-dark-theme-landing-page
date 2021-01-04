@@ -42,7 +42,7 @@
 
       .profile{
         @include flexCenter(row); 
-        justify-content: end;
+        justify-content: left;
 
         .profile-img{
           margin-right: 0.7rem;
