@@ -15,7 +15,7 @@ form.addEventListener('submit', (e)=>{
       p.appendChild(document.createTextNode('Please enter a valid email address'));
       err.appendChild(p);
 
-      setTimeout(clearText, 900000);
+      setTimeout(clearText, 2000);
     } else{
       form.submit();
     }
